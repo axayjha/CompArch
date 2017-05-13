@@ -1,7 +1,7 @@
 # CompArch
 Verilog Codes for 4th Sem
 
-Experiment 1
+*Experiment 1
 ----------------------
     a)
        and2gate.v
