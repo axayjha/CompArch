@@ -52,5 +52,29 @@ Experiment 3
         b) output = input + 1 if input < 4; input-1 otherwise 
             function2.v
             function2_tb.v
-            
+
+Experiment 4
+------------------------
+    1)
+        mux41.v
+        mux41_tb.v
+    2)
+        mux81.v
+        mux81_tb.v
+    3)
+        decoder38_1.v
+        decoder38_tb.v
+       
+Experiment 5
+-------------------------
+    1)
+        function.v
+        function_tb.v
+    2)
+        priority_encoder.v
+        priority_encoder_tb.v
+    3)
+        mag_comp.v
+        mag_comp_tb.v
+
         
