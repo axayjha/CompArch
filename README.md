@@ -1,4 +1,4 @@
-# CompArch
+# Computer Architecture
 Verilog Codes for 4th Sem
 ```
 .
