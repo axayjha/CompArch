@@ -1,6 +1,6 @@
 /*
 *	Majority circuit
-* 	Module returns true when more than half the inputs are true*
+* 	It returns true when more than half the inputs are true*
 *	Akshay - 24/02/2017
 * 	Bug fixed - 14/05/2018 . Thanks to Sumon.
 */
