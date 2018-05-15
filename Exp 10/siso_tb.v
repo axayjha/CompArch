@@ -1,13 +1,20 @@
-module siso_tb;
-	reg a,clk,rst;
-	wire q;
-	siso s1(clk,rst,a,q);
-	initial	clk=1'b1;
-	initial begin
-		a=1'b0;rst=1'b0;
-		#100 rst=1'b0;
-		#100 a=1'b1;
-		#100 rst=1'b0;
-		#100 rst=1'b0;   
-	end
+module siso_test;
+ reg i;
+ reg rst;
+ reg clk;
+ wire o;
+ siso uut (
+	 .in(in), 
+	 .out(out), 
+	.rst(rst),
+	.clk(clk)
+ );
+ initial begin
+	clk = 0; #10; in = 1; clk = 1;
+	rst = 0; #10;
+	clk = 0; #10; in = 0; clk = 1;	#10;
+	clk = 0; #10; in = 1; clk = 1;	#10;
+	clk = 0; #10; in = 0; clk = 1;	#10;
+	clk = 0; #10; in = 1; clk = 1;	
+ end
 endmodule
